@@ -35,6 +35,15 @@
         $(".navbar-collapse").collapse("hide");
     });
 
+    // Main slider
+    $('#main-slider').owlCarousel({
+        items: 1,
+        nav: false,
+        dots: true,
+        autoplay: true,
+        autoplayHoverPause: true
+    });
+
     // Activate scrollspy to add active class to navbar items on scroll
     $("body").scrollspy({
         target: "#sideNav",
