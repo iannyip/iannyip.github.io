@@ -17,3 +17,20 @@
 .nav-item-active {
   color: white;
 }
+
+.list-grp-item {
+  position: relative;
+  font-size: 0.8rem;
+  display: inline;
+  padding-top: 4px;
+  padding-right: 10px;
+  background-color: #fff;
+}
+
+.zoom {
+  transition: transform 0.2s;
+}
+
+.zoom:hover {
+  transform: scale(1.05);
+}
